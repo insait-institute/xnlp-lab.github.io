@@ -109,19 +109,21 @@
     main.innerHTML = `
       <section class="hero container reveal visible">
         <div class="hero-copy">
-          <span class="eyebrow">Academic · Creative · Open</span>
-          <a
-            class="hero-affiliation"
-            href="https://insait.ai/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src="assets/img/insait-logo.png"
-              alt="INSAIT"
-              class="hero-insait-logo"
-            />
-          </a>
+          <div class="hero-brand-block">
+            <span class="eyebrow">Academic · Creative · Open</span>
+            <a
+              class="hero-affiliation"
+              href="https://insait.ai/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="assets/img/insait-logo.png"
+                alt="INSAIT"
+                class="hero-insait-logo"
+              />
+            </a>
+          </div>
           <h1>${data.lab.name}</h1>
           <p class="hero-tagline">${data.lab.tagline}</p>
           <p class="hero-text">${data.lab.homeIntro}</p>
