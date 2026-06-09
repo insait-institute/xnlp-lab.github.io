@@ -123,7 +123,7 @@ window.LAB_DATA = {
       {
         name: "Xilong Cheng",
         role: "Collaborating Msc · CUC",
-        interests: ["Role playing", "Memory and continual learning"],
+        interests: ["Role Playing", "Memory and Continual Learning"],
         image: "assets/img/Xilong.png",
         website: "https://ggbondcxl.github.io/"
       },
