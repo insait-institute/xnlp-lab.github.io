@@ -345,7 +345,13 @@
                   <div class="card timeline-content">
                     <span class="timeline-date">${item.date}</span>
                     <span class="chip">${item.category}</span>
-                    <h3>${item.title}</h3>
+                    <h3>
+                      ${
+                        item.link
+                          ? `<a href="${item.link}" target="_blank" rel="noopener noreferrer">${item.title}</a>`
+                          : item.title
+                      }
+                    </h3>
                     <p>${item.description}</p>
                   </div>
                 </article>

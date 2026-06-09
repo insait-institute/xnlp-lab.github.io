@@ -170,7 +170,7 @@ window.LAB_DATA = {
         name: "Qing Li",
         role: "Assistant Professor · University of Groningen",
         interests: ["Trustworthy AI", "Interpretability"],
-        image: "assets/img/qingli.png",
+        image: "assets/img/qing.png",
         website: "https://manwaner333.github.io/"
       },
       {
@@ -233,7 +233,7 @@ window.LAB_DATA = {
       date: "2026-05-11",
       category: "Talk",
       title: "Yuxia gives a talk at ETH Zurich AI Center.",
-      description: "Discuss about When do language models fail quietly? From Average to Individual.",
+      description: "Topic: When do language models fail quietly? From Average to Individual.",
       link: "https://ai.ethz.ch/research/events/academic-talks/details.when-do-language-models-fail-quietly-from-average-to-individual.77692.html"
     },
     {
@@ -243,23 +243,24 @@ window.LAB_DATA = {
       description: "Three papers are related to AI for finance, one for MGT detection and one for cultural bias."
     },
     {
+      date: "2026-01-23",
+      category: "Visit",
+      title: "Visit Shanghai Jiaotong University and Shanghai AILab.",
+      description: "Visit Prof. Chen Qian and Dr. Yan Teng."
+    },
+    {
       date: "2026-01-03",
       category: "Paper",
       title: "Two papers accepted to EACL 2026 Main.",
       description: "Two papers are related to machine-generated context including text and code detection."
-    }
-    // {
-    //   date: "2026-03-02",
-    //   category: "Visit",
-    //   title: "We welcomed visiting scholars from Kyoto Tech and the University of Edinburgh.",
-    //   description: "The visit included a mini-symposium on robust reasoning and multimodal interaction."
-    // },
-    // {
-    //   date: "2026-02-11",
-    //   category: "Open Source",
-    //   title: "SearchStateKit v1.0 is now open-sourced.",
-    //   description: "The toolkit provides modules for explicit search-state maintenance, auditing, and evaluation."
-    // }
+    },
+    {
+      date: "2025-12-03",
+      category: "Talk",
+      title: "Yuxia gives a talk in AI for Good Webinar",
+      description: "Topic: How we see AI to how AI sees us: Toward understanding, trust, and engagement",
+      link: "https://ellis.eu/events/ai-for-good-webinar-yuxia-wang"
+    },
   ],
   projects: {
     ongoing: [
@@ -361,7 +362,12 @@ window.LAB_DATA = {
       date: "2026-04-18",
       image: "assets/img/memory_2026_0418_climbing.png"
     },
-    
+    {
+      title: "Rose Picking",
+      description: "Elena, Asen, Federico and Dimi.",
+      date: "2026-05-30",
+      image: "assets/img/memory_2026_0530_rose_picking.png"
+    },
   ],
   connections: [
     { name: "Institute for AI Safety", type: "Research Partner" },
