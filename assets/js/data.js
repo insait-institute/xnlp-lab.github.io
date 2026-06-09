@@ -257,7 +257,7 @@ window.LAB_DATA = {
     {
       date: "2025-12-03",
       category: "Talk",
-      title: "Yuxia gives a talk in AI for Good Webinar",
+      title: "Yuxia gives a talk in ELLIS AI for Good Webinar",
       description: "Topic: How we see AI to how AI sees us: Toward understanding, trust, and engagement",
       link: "https://www.youtube.com/live/J_gX9jDoQLE"
       // link: "https://ellis.eu/events/ai-for-good-webinar-yuxia-wang"
