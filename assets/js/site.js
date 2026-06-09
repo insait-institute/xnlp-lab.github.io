@@ -161,7 +161,7 @@
             <p>Personal digital divisions simulating users to enhance productivity and human well-being.</p>
           </article>
           <article class="card reveal delay-2">
-            <h3>Continuous Learning</h3>
+            <h3>Continual Learning</h3>
             <p>Enable models and systems with lifelong learning.</p>
           </article>
           <article class="card reveal">

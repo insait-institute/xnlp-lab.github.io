@@ -11,7 +11,7 @@ window.LAB_DATA = {
     homeIntro:
       "The INSAIT X-NLP Lab explores personal digital divisions, building reliable AI and NLP systems that are safe, factual, helpful and empathetic, and advancing language models beyond auto-regressive paradigms.",
     homeBullets: [
-      "Personal Digital Divisions: personalization and privacy protection, memory and continuous learning",
+      "Personal Digital Divisions: personalization and privacy protection, memory and continual learning",
       "Reliable AI and NLP: LLM and agentic safety, fact-checking, uncertainty estimation",
       "Diffusion Language Model: unify multimodal generation"
     ],
@@ -27,7 +27,7 @@ window.LAB_DATA = {
       {
         name: "Dr. Yuxia Wang",
         role: "Assistant Professor",
-        interests: ["Reliable AI and NLP", "Continuous Learning and Memory", "Personalization and Privacy"], 
+        interests: ["Reliable AI and NLP", "Personal Digital Twins", "AI for Finance and Medical"], 
         email: "yuxia.wang@insait.ai",
         image: "assets/img/Yuxia.jpg",
         website: "https://yuxiaw.github.io/"
@@ -44,7 +44,7 @@ window.LAB_DATA = {
       {
         name: "Jiayi Fu",
         role: "PhD Candidate",
-        interests: ["Diffusion Language Models", "Continuous Learning"],
+        interests: ["Diffusion Language Models", "Continual Learning"],
         image: "assets/img/jiayi.jpg",
         website: "https://poruna-byte.github.io/"
       },
@@ -74,13 +74,13 @@ window.LAB_DATA = {
       {
         name: "Emiliana Dimitrova",
         role: "SURF · MIT",
-        interests: ["LLM multi-objective alignment"],
+        interests: ["LLM Multi-objective Alignment"],
         image: "assets/img/Emiliana.png"
       },
       {
         name: "Vasilije Ivanovic",
         role: "SURF · University of Belgrade",
-        interests: ["Diffusion language models"],
+        interests: ["Diffusion Language Models"],
         image: "assets/img/Vasilije.png"
       },
     ],
@@ -162,7 +162,7 @@ window.LAB_DATA = {
       {
         name: "Jiahui Geng",
         role: "Assistant Professor · Linköping University",
-        interests: ["Trustworthy LLM", "Agent", "Code generation"],
+        interests: ["Trustworthy LLM", "Agent", "Code Generation"],
         image: "assets/img/jiahui.png",
         website: "https://jiahuigeng.github.io/"
       },
@@ -176,7 +176,7 @@ window.LAB_DATA = {
       {
         name: "Yue Feng",
         role: "Assistant Professor · University of Birmingham",
-        interests: ["LLM agent", "Trustworthy LLM", "Multimodal foundation models"],
+        interests: ["LLM Agent", "Trustworthy LLM", "Multimodal Foundation Models"],
         image: "assets/img/yuefeng.png",
         website: "https://fengyue-leah.github.io/"
       },
@@ -259,7 +259,8 @@ window.LAB_DATA = {
       category: "Talk",
       title: "Yuxia gives a talk in AI for Good Webinar",
       description: "Topic: How we see AI to how AI sees us: Toward understanding, trust, and engagement",
-      link: "https://ellis.eu/events/ai-for-good-webinar-yuxia-wang"
+      link: "https://www.youtube.com/live/J_gX9jDoQLE"
+      // link: "https://ellis.eu/events/ai-for-good-webinar-yuxia-wang"
     },
   ],
   projects: {
@@ -379,7 +380,7 @@ window.LAB_DATA = {
   ],
   recruit: {
     regular: [
-      "Motivated PhD students interested in personalization, continuous learning, agentic safety, or trustworthy AI",
+      "Motivated PhD students interested in personalization, continual learning, agentic safety, or trustworthy AI",
       "Postdoctoral researchers with a strong publication record in NLP or machine learning, and interest in reliable AI and personal digital divisions",
       "Master students seeking thesis supervision in NLP, especially within EU or through ELLIS",
       "Remote research interns with passion for NLP, AI safety, or personal digital divisions",
@@ -407,8 +408,8 @@ window.LAB_DATA = {
     urgent: [
       {
         title: "Recruit · PhD students",
-        summary: "Establish trustworthy AI with uncertainty estimation and interpretability; Build personal digital divisions with a focus on personalization, memory, continuous learning and privacy protection.",
-        needs: ["Passion for continuous learning, personalization, reliable AI", "Research experience", "Self-motivation", "Strong coding skills"],
+        summary: "Establish trustworthy AI with uncertainty estimation and interpretability; Build personal digital divisions with a focus on personalization, memory, continual learning and privacy protection.",
+        needs: ["Passion for continual learning, personalization, reliable AI", "Research experience", "Self-motivation", "Strong coding skills"],
         contact: "yuxia.wang@insait.ai",
         link: "https://insait.ai/phd/"
       },
@@ -420,7 +421,7 @@ window.LAB_DATA = {
       },
       {
         title: "Supervise · Master Thesis",
-        summary: "For Master students, especially within EU or through ELLIS, we are very interested in hosting Master Thesis, Semester Projects, and general research collaboration. The topics can be flexible within NLP, but ideally related to trustworthy AI (reasoning, factuality, safety, calibration, interpretability); and personal digital divisions (personalization,memory, continuous learning, privacy protection).",
+        summary: "For Master students, especially within EU or through ELLIS, we are very interested in hosting Master Thesis, Semester Projects, and general research collaboration. The topics can be flexible within NLP, but ideally related to trustworthy AI (reasoning, factuality, safety, calibration, interpretability); and personal digital divisions (personalization,memory, continual learning, privacy protection).",
         needs: ["NLP research experience", "Strong coding skills", "PhD interest"],
         contact: "yuxia.wang@insait.ai"
       },
