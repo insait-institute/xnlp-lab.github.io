@@ -170,7 +170,7 @@ window.LAB_DATA = {
         name: "Qing Li",
         role: "Assistant Professor · University of Groningen",
         interests: ["Trustworthy AI", "Interpretability"],
-        image: "assets/img/qing.png",
+        image: "assets/img/qingli.png",
         website: "https://manwaner333.github.io/"
       },
       {

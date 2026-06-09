@@ -109,6 +109,7 @@
     main.innerHTML = `
       <section class="hero container reveal visible">
         <div class="hero-copy">
+          <span class="eyebrow">Academic · Creative · Open</span>
           <a
             class="hero-affiliation"
             href="https://insait.ai/"
@@ -121,7 +122,6 @@
               class="hero-insait-logo"
             />
           </a>
-          <span class="eyebrow">Academic · Creative · Open</span>
           <h1>${data.lab.name}</h1>
           <p class="hero-tagline">${data.lab.tagline}</p>
           <p class="hero-text">${data.lab.homeIntro}</p>
