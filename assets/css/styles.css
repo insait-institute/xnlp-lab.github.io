@@ -137,6 +137,22 @@ img { display: block; max-width: 100%; }
   align-items: center;
 }
 
+.hero-affiliation {
+  display: inline-block;
+  margin-bottom: 18px;
+}
+
+.hero-insait-logo {
+  height: 72px;
+  width: auto;
+  display: block;
+  transition: opacity 0.2s ease;
+}
+
+.hero-affiliation:hover .hero-insait-logo {
+  opacity: 0.85;
+}
+
 .page-hero h1, .hero h1 {
   font-size: clamp(2.8rem, 6vw, 5rem);
   line-height: 1.04;

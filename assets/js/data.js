@@ -16,7 +16,7 @@ window.LAB_DATA = {
       "Diffusion Language Model: unify multimodal generation"
     ],
     stats: [
-      { value: "4", label: "Students" },
+      { value: "5", label: "Students" },
       { value: "10+", label: "International Collaborators" },
       { value: "4", label: "Research Topics" },
       { value: "3+", label: "Openings" },
@@ -73,13 +73,13 @@ window.LAB_DATA = {
     surf: [
       {
         name: "Emiliana Dimitrova",
-        role: "SURF undergraduate · MIT",
+        role: "SURF · MIT",
         interests: ["LLM multi-objective alignment"],
         image: "assets/img/Emiliana.png"
       },
       {
         name: "Vasilije Ivanovic",
-        role: " undergraduate · MIT",
+        role: "SURF · University of Belgrade",
         interests: ["Diffusion language models"],
         image: "assets/img/Vasilije.png"
       },
@@ -124,7 +124,7 @@ window.LAB_DATA = {
         name: "Xilong Cheng",
         role: "Collaborating Msc · CUC",
         interests: ["Role playing", "Memory and continual learning"],
-        image: "assets/img/Xilong.jpg",
+        image: "assets/img/Xilong.png",
         website: "https://ggbondcxl.github.io/"
       },
       {
@@ -177,7 +177,7 @@ window.LAB_DATA = {
         name: "Yue Feng",
         role: "Assistant Professor · University of Birmingham",
         interests: ["LLM agent", "Trustworthy LLM", "Multimodal foundation models"],
-        image: "assets/img/qing.png",
+        image: "assets/img/yuefeng.png",
         website: "https://fengyue-leah.github.io/"
       },
       {
