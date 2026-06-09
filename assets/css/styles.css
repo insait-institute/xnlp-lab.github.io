@@ -91,7 +91,7 @@ img { display: block; max-width: 100%; }
 }
 
 .insait-logo {
-  height: 28px;
+  height: 22px;
   width: auto;
   display: block;
 }
@@ -150,7 +150,7 @@ img { display: block; max-width: 100%; }
 }
 
 .hero-insait-logo {
-  height: 90px;
+  height: 85px;
   width: auto;
   display: block;
   transition: opacity 0.2s ease;
