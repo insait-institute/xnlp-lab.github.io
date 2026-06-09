@@ -17,7 +17,7 @@ window.LAB_DATA = {
     ],
     stats: [
       { value: "4", label: "Students" },
-      { value: "9", label: "International Collaborators" },
+      { value: "10+", label: "International Collaborators" },
       { value: "4", label: "Research Topics" },
       { value: "3+", label: "Openings" },
     ]
@@ -63,6 +63,26 @@ window.LAB_DATA = {
         interests: ["Bulgarian Language Processing", "AI for Education"],
         image: "assets/img/Elena.png"
       },
+      {
+        name: "Vanesa Kalinkova",
+        role: "Explorer",
+        interests: ["Bulgarian Language Processing", "LLM Evaluation"],
+        image: "assets/img/Vanesa.png"
+      },
+    ],
+    surf: [
+      {
+        name: "Emiliana Dimitrova",
+        role: "SURF undergraduate · MIT",
+        interests: ["LLM multi-objective alignment"],
+        image: "assets/img/Emiliana.png"
+      },
+      {
+        name: "Vasilije Ivanovic",
+        role: " undergraduate · MIT",
+        interests: ["Diffusion language models"],
+        image: "assets/img/Vasilije.png"
+      },
     ],
     visiting: [
       {
@@ -101,6 +121,13 @@ window.LAB_DATA = {
         website: "https://scholar.google.com/citations?user=knQDa8IAAAAJ&hl=en"
       },
       {
+        name: "Xilong Cheng",
+        role: "Collaborating Msc · CUC",
+        interests: ["Role playing", "Memory and continual learning"],
+        image: "assets/img/Xilong.jpg",
+        website: "https://ggbondcxl.github.io/"
+      },
+      {
         name: "Kanwal Mehreen",
         role: "Collaborating Msc · University of British Columbia",
         interests: ["LLM Empathy"],
@@ -130,7 +157,44 @@ window.LAB_DATA = {
         website: "https://koookieee.github.io/",
         // "https://scholar.google.com/citations?user=ivYo0q4AAAAJ&hl=en"     
       }
-    ]
+    ],
+    collaborator: [
+      {
+        name: "Jiahui Geng",
+        role: "Assistant Professor · Linköping University",
+        interests: ["Trustworthy LLM", "Agent", "Code generation"],
+        image: "assets/img/jiahui.png",
+        website: "https://jiahuigeng.github.io/"
+      },
+      {
+        name: "Qing Li",
+        role: "Assistant Professor · University of Groningen",
+        interests: ["Trustworthy AI", "Interpretability"],
+        image: "assets/img/qing.png",
+        website: "https://manwaner333.github.io/"
+      },
+      {
+        name: "Yue Feng",
+        role: "Assistant Professor · University of Birmingham",
+        interests: ["LLM agent", "Trustworthy LLM", "Multimodal foundation models"],
+        image: "assets/img/qing.png",
+        website: "https://fengyue-leah.github.io/"
+      },
+      {
+        name: "Liangming Pan",
+        role: "Assistant Professor · Peking University",
+        interests: ["Trustworthy AI", "Interpretability"],
+        image: "assets/img/liangming.png",
+        website: "https://liangmingpan.bio/"
+      },
+      {
+        name: "Chen Qian",
+        role: "Associate Professor · Shanghai Jiao Tong University",
+        interests: ["Agent"],
+        image: "assets/img/chenqian.png",
+        website: "https://qianc62.github.io/"
+      },
+    ],
   },
   papers: [
     {
@@ -160,6 +224,19 @@ window.LAB_DATA = {
   ],
   news: [
     {
+      date: "2026-05-27",
+      category: "Visit",
+      title: "Yuxia and Kaiyang visit UKP Lab in TU Darmstadt and give talks.",
+      description: "Visit Prof. Iryna and meet Prof. Monojit Choudhury and Lei You.",
+    },
+    {
+      date: "2026-05-11",
+      category: "Talk",
+      title: "Yuxia gives a talk at ETH Zurich AI Center.",
+      description: "Discuss about When do language models fail quietly? From Average to Individual.",
+      link: "https://ai.ethz.ch/research/events/academic-talks/details.when-do-language-models-fail-quietly-from-average-to-individual.77692.html"
+    },
+    {
       date: "2026-04-06",
       category: "Paper",
       title: "Five papers accepted to ACL 2026: four main and one findings.",
@@ -171,12 +248,6 @@ window.LAB_DATA = {
       title: "Two papers accepted to EACL 2026 Main.",
       description: "Two papers are related to machine-generated context including text and code detection."
     }
-    // {
-    //   date: "2026-03-18",
-    //   category: "Award",
-    //   title: "Two papers accepted to ACL 2026.",
-    //   description: "Congratulations to the ESL team for new work on heterogeneous search and language-agent reward design."
-    // },
     // {
     //   date: "2026-03-02",
     //   category: "Visit",

@@ -27,9 +27,25 @@
     const header = `
       <header class="site-header">
         <div class="container nav-wrap">
-          <a class="brand" href="index.html" aria-label="${data.lab.name}">
-            <span>${data.lab.shortName}</span>
-          </a>
+          <div class="brand-group">
+            <a
+              class="insait-logo-link"
+              href="https://insait.ai/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="INSAIT Homepage"
+            >
+              <img
+                src="assets/img/insait-logo.png"
+                alt="INSAIT"
+                class="insait-logo"
+              />
+            </a>
+
+            <a class="brand" href="index.html" aria-label="${data.lab.name}">
+              <span>${data.lab.shortName}</span>
+            </a>
+          </div>
           <button class="menu-button" aria-label="Toggle navigation">Menu</button>
           <nav class="nav">${navLinks}</nav>
         </div>
@@ -183,7 +199,9 @@
       ["Faculty", data.people.faculty || [], "Core research leadership and mentorship."],
       ["PhD Candidates", data.people.phd || [], "Doctoral researchers building the lab’s long-term research agenda."],
       ["Explorers", data.people.explorer || [], "Students exploring new questions, prototypes, and directions."],
-      ["Visiting & Collaborating Researchers", visitingPeople, "Close collaborators and visiting researchers across institutions."]
+      ["SURF Students", data.people.surf || [], "Summer Undergraduate Research Fellowship (SURF)."],
+      ["Visiting Researchers", data.people.visiting || [], "Visiting and collaborating students across institutions."],
+      ["Collaborators", data.people.collaborator || [], "Collaborative and associated senior staff across institutions."]
     ].filter(([, people]) => Array.isArray(people) && people.length > 0);
 
     const renderWebsite = (person) => {
