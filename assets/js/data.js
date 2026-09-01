@@ -88,7 +88,7 @@ window.LAB_DATA = {
       {
         name: "Ruihong Zeng",
         role: "Collaborating PhD · MBZUAI",
-        interests: ["Factuality", "Fact-checking"],
+        interests: ["Memory", "Fact-checking"],
         image: "assets/img/Ruihong.jpg",
         website: "https://scholar.google.com/citations?user=hCt0gK0AAAAJ&hl=zh-CN"
       },
@@ -102,7 +102,7 @@ window.LAB_DATA = {
       {
         name: "Minh Ngoc Ta",
         role: "Collaborating PhD · MBZUAI",
-        interests: ["Machine-generated content detection", "Ambiguous Clarification"],
+        interests: ["Ambiguous Clarification", "Agents and Memory"],
         image: "assets/img/Minh.png",
         website: "https://scholar.google.com/citations?user=yfg2V6IAAAAJ&hl=en"
       },
@@ -115,8 +115,8 @@ window.LAB_DATA = {
       },
       {
         name: "Yuyang Dai",
-        role: "Collaborating Msc · UC Berkeley",
-        interests: ["Personal digital twins", "AI for finance"],
+        role: "Collaborating PhD · Florida State University",
+        interests: ["Personal digital twins", "Agents"],
         image: "assets/img/yuyang.jpg",
         website: "https://scholar.google.com/citations?user=knQDa8IAAAAJ&hl=en"
       },
@@ -126,13 +126,6 @@ window.LAB_DATA = {
         interests: ["Role Playing", "Memory and Continual Learning"],
         image: "assets/img/Xilong.png",
         website: "https://ggbondcxl.github.io/"
-      },
-      {
-        name: "Kanwal Mehreen",
-        role: "Collaborating Msc · University of British Columbia",
-        interests: ["LLM Empathy"],
-        image: "assets/img/kanwal.png",
-        website: "https://kanwal-mehreen.netlify.app/"
       },
       {
         name: "Junjie Liao",
@@ -156,7 +149,14 @@ window.LAB_DATA = {
         image: "assets/img/vidushee.png",
         website: "https://koookieee.github.io/",
         // "https://scholar.google.com/citations?user=ivYo0q4AAAAJ&hl=en"     
-      }
+      },
+      {
+        name: "Kanwal Mehreen",
+        role: "Collaborating Msc · University of British Columbia",
+        interests: ["LLM Empathy"],
+        image: "assets/img/kanwal.png",
+        website: "https://kanwal-mehreen.netlify.app/"
+      },
     ],
     collaborator: [
       {
@@ -224,6 +224,36 @@ window.LAB_DATA = {
   ],
   news: [
     {
+      date: "2026-09-01",
+      category: "New Member",
+      title: "Donika officially joins us as a PhD visiting student!",
+      description: "Happy to welcome our new team member."
+    },
+    {
+      date: "2026-08-24",
+      category: "Host Visitor",
+      title: "Vilém Zouhar from ETH Zürich visits.",
+      description: "Vilém gives a talk: Theory and Practice of Efficient Evaluation.",
+    },
+    {
+      date: "2026-08-21",
+      category: "Paper",
+      title: "Six papers accepted to EMNLP 2026: four main and two findings.",
+      description: "Papers span from improving fact-checking efficiency, dark humor detection, medical factuality and multi-round QA, as well as Arabic LLM development and cultural cues steering."
+    },
+    {
+      date: "2026-08-16",
+      category: "Host Visitor",
+      title: "Dr. Yue Feng from University of Birmingham visits.",
+      description: "Dr. Yue gives a talk: Building Trustworthy LLM Agents for Complex Domain Reasoning.",
+    },
+    {
+      date: "2026-06-15",
+      category: "Host Visitor",
+      title: "Dr. Lei You from Technical University of Denmark visits.",
+      description: "Dr. Lei You gives a talk: Trust AI? Prove it.",
+    },
+    {
       date: "2026-05-27",
       category: "Visit",
       title: "Yuxia and Kaiyang visit UKP Lab in TU Darmstadt and give talks.",
@@ -237,16 +267,46 @@ window.LAB_DATA = {
       link: "https://ai.ethz.ch/research/events/academic-talks/details.when-do-language-models-fail-quietly-from-average-to-individual.77692.html"
     },
     {
+      date: "2026-04-07",
+      category: "Host Visitor",
+      title: "Prof. Preslav Nakov from MBZUAI visits.",
+      description: "Prof. Preslav discussed lots of research topics with our students."
+    },
+    {
       date: "2026-04-06",
       category: "Paper",
       title: "Five papers accepted to ACL 2026: four main and one findings.",
       description: "Three papers are related to AI for finance, one for MGT detection and one for cultural bias."
     },
     {
+      date: "2026-03-16",
+      category: "New Member",
+      title: "Jiayi Fu comes to INSAIT today!",
+      description: "Our teaming is growing."
+    },
+    {
+      date: "2026-02-23",
+      category: "Visit",
+      title: "Yuxia attends ELLIS 2026 NLP Workshop in Venice.",
+      description: "Reseachers from ELLIS discussed meaningful topics this year like long-term memory."
+    },
+    {
+      date: "2026-01-26",
+      category: "New Member",
+      title: "Kaiyang Wan comes to INSAIT today and his paper is accepted to ICLR 2026!",
+      description: "A Fano-Style Accuracy Upper Bound for LLM Single-Pass Reasoning in Multi-Hop QA."
+    },
+    {
       date: "2026-01-23",
       category: "Visit",
       title: "Visit Shanghai Jiaotong University and Shanghai AILab.",
       description: "Visit Prof. Chen Qian and Dr. Yan Teng."
+    },
+    {
+      date: "2026-01-06",
+      category: "New Member",
+      title: "Yuxia starts co-supervising Asen Dotsinski for his Master's thesis.",
+      description: "Asen Dotsinski will start his PhD at INSAIT from August 2026."
     },
     {
       date: "2026-01-03",
@@ -261,6 +321,12 @@ window.LAB_DATA = {
       description: "Topic: How we see AI to how AI sees us: Toward understanding, trust, and engagement",
       link: "https://www.youtube.com/live/J_gX9jDoQLE"
       // link: "https://ellis.eu/events/ai-for-good-webinar-yuxia-wang"
+    },
+    {
+      date: "2025-11-16",
+      category: "Visit",
+      title: "Yuxia attends Prof. Iryna’s Award Ceremony in London and Seminar in Cambridge",
+      description: "Prof. Iryna life wisdom: Success does not lead to happiness, but happiness leads to success; Long-term success demands overcoming a lot of short-term failures; Optimize for true impact, stop chasing the scores.",
     },
   ],
   projects: {
@@ -368,6 +434,12 @@ window.LAB_DATA = {
       description: "Elena, Asen, Federico and Dimi.",
       date: "2026-05-30",
       image: "assets/img/memory_2026_0530_rose_picking.png"
+    },
+    {
+      title: "Lab Dinner - Thai and Sushi Bar",
+      description: "An evening gathering to welcome Vilém Zouhar and say goodbye to Emiliana and Vasilije.",
+      date: "2026-08-24",
+      image: "assets/img/memory_2026_0824_thai_meal.jpg"
     },
   ],
   connections: [
