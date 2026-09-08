@@ -210,7 +210,7 @@
     const main = document.getElementById("page-root");
     const visitingPeople = data.people.visiting || data.people.collaborators || [];
     const sections = [
-      ["Faculty", data.people.faculty || [], "Core research leadership and mentorship."],
+      ["Faculty and Senior Researcher", data.people.faculty || [], "Core research leadership and mentorship."],
       ["PhD Candidates", data.people.phd || [], "Doctoral researchers building the lab’s long-term research agenda."],
       ["Explorers", data.people.explorer || [], "Students exploring new questions, prototypes, and directions."],
       ["SURF Students", data.people.surf || [], "Summer Undergraduate Research Fellowship (SURF)."],

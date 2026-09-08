@@ -32,6 +32,14 @@ window.LAB_DATA = {
         image: "assets/img/Yuxia.jpg",
         website: "https://yuxiaw.github.io/"
       },
+      {
+        name: "Dr. Yanda Li",
+        role: "Postdoctoral Fellow",
+        interests: ["Personal Digital Twins", "AI for Medical"], 
+        email: "yanda.li@insait.ai",
+        image: "assets/img/yanda.png",
+        website: "https://scholar.google.com/citations?user=12sQT1oAAAAJ&hl=zh-CN"
+      },
     ],
     phd: [
       {
@@ -54,6 +62,13 @@ window.LAB_DATA = {
         interests: ["LLM Security", "Jailbreaking Defences", "Mechanistic Interpretability"],
         image: "assets/img/asen.jpg",
         website: "https://asendotsinski.github.io"
+      },
+      {
+        name: "Donika Nakova Stefanova",
+        role: "Visiting PhD",
+        interests: ["Uncertainty Estimation and Calibration", "Agent Safety"],
+        image: "assets/img/Donika.png",
+        website: ""
       }
     ],
     explorer: [
@@ -223,6 +238,12 @@ window.LAB_DATA = {
     },
   ],
   news: [
+     {
+      date: "2026-09-08",
+      category: "Paper",
+      title: "Three papers accepted to AACL 2026: two main and one findings.",
+      description: "Papers are related to harm-aware fairness evaluation, analyzing that empathy is not the scapegoat for factuality and safety declines and LLM Development for Urdu language."
+    },
     {
       date: "2026-09-01",
       category: "New Member",
