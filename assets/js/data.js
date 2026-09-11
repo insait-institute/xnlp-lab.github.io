@@ -126,7 +126,7 @@ window.LAB_DATA = {
         role: "Collaborating PhD · Newcastle University",
         interests: ["Skilled agents", "AI for finance"],
         image: "assets/img/linyan.jpg",
-        website: "https://yanlin-quinne.github.io/"
+        website: "https://scholar.google.co.uk/citations?hl=en&user=7skGGDUAAAAJ"
       },
       {
         name: "Yuyang Dai",
@@ -238,17 +238,17 @@ window.LAB_DATA = {
     },
   ],
   news: [
-     {
+    {
+      date: "2026-09-15",
+      category: "New Member",
+      title: "Donika officially joins us as a PhD visiting student!",
+      description: "Happy to welcome our new team member."
+    },
+    {
       date: "2026-09-08",
       category: "Paper",
       title: "Three papers accepted to AACL 2026: two main and one findings.",
       description: "Papers are related to harm-aware fairness evaluation, analyzing that empathy is not the scapegoat for factuality and safety declines and LLM Development for Urdu language."
-    },
-    {
-      date: "2026-09-01",
-      category: "New Member",
-      title: "Donika officially joins us as a PhD visiting student!",
-      description: "Happy to welcome our new team member."
     },
     {
       date: "2026-08-24",
