@@ -122,9 +122,16 @@ window.LAB_DATA = {
         website: "https://scholar.google.com/citations?user=yfg2V6IAAAAJ&hl=en"
       },
       {
+        name: "Rania Elbadry",
+        role: "Collaborating PhD · Newcastle University",
+        interests: ["Continual Learning", "AI for Finance"],
+        image: "assets/img/Rania.png",
+        website: "https://scholar.google.com/citations?user=ic1jai8AAAAJ&hl=en"
+      },
+      {
         name: "Yan Lin",
         role: "Collaborating PhD · Newcastle University",
-        interests: ["Skilled agents", "AI for finance"],
+        interests: ["Agents", "AI for Finance"],
         image: "assets/img/linyan.jpg",
         website: "https://scholar.google.co.uk/citations?hl=en&user=7skGGDUAAAAJ"
       },
@@ -214,6 +221,62 @@ window.LAB_DATA = {
   papers: [
     {
       year: 2026,
+      title: "How Fine-Tuning Objectives Shape Layer-Wise Information in LLM Hallucination Detection",
+      venue: "NeurIPS 2026",
+      authors: "Kaiyang Wan, Forrest Sheng Bao, Amin Ahmad, Yuxia Wang",
+      tags: ["Interpretability"],
+      link: ""
+    },
+    {
+      year: 2026,
+      title: "The Geometry of Forgetting: Temporal Knowledge Drift as an Independent Axis in LLM Representations",
+      venue: "NeurIPS 2026",
+      authors: "Rania Elbadry, Ahmed Heakl, Fan Zhang, Dani Bouch, Yuxia Wang, Preslav Nakov, Zhuohan Xie",
+      tags: ["Continual Learning"],
+      link: "https://arxiv.org/pdf/2605.09195"
+    },
+    {
+      year: 2026,
+      title: "Empathy Is Not the Scapegoat for Declines in Factuality and Reliability",
+      venue: "AACL 2026 (Main)",
+      authors: "Letian Shi*, Kanwal Mehreen*, Deheng Zhang, Yuxia Wang",
+      tags: ["Multi-capability alignment"],
+      link: ""
+    },
+    {
+      year: 2026,
+      title: "HALF: Harm-Aware LLM Fairness Evaluation Aligned with Deployment",
+      venue: "AACL 2026 (Main)",
+      authors: "Ali Mekky, Omar El Herraoui, Preslav Nakov, Yuxia Wang",
+      tags: ["Fairness"],
+      link: "https://arxiv.org/pdf/2510.12217"
+    },
+    {
+      year: 2026,
+      title: "MedSNIP: Building and Benchmarking Snippet-Level Granularity for Medical Fact Verification",
+      venue: "EMNLP 2026 (Main)",
+      authors: "Hasan Iqbal, Sarfraz Ahmad, Hyunjae Kim, Sihyeon Park, Junjie Liao, Qingyu Chen, Preslav Nakov, Yuxia Wang",
+      tags: ["Medical Fact-checking"],
+      link: "https://arxiv.org/pdf/2609.12884"
+    },
+    {
+      year: 2026,
+      title: "Harm or Humor: A Multimodal, Multilingual Benchmark for Overt and Covert Harmful Humor",
+      venue: "EMNLP 2026 (Main)",
+      authors: "Ahmed Sharshar*, Hosam Elgendy*, Saad El Dine Ahmed, Yasser Rohaim, Yuxia Wang",
+      tags: ["Harmful Humor"],
+      link: "https://arxiv.org/pdf/2603.17759"
+    },
+    {
+      year: 2026,
+      title: "Retrieve Few, Verify Many: Segment-Level Evidence Reuse for Long-Form Factuality Assessment",
+      venue: "EMNLP 2026 (Findings)",
+      authors: Junjie Liao, Yuxia Wang",
+      tags: ["Efficient Fact-checking"],
+      link: ""
+    },
+    {
+      year: 2026,
       title: "RealFin: How Well Do LLMs Reason About Finance When Users Leave Things Unsaid?",
       venue: "ACL 2026 (Findings)",
       authors: "Yuyang Dai*, Yan Lin*, Zhuohan Xie, Yuxia Wang",
@@ -238,6 +301,18 @@ window.LAB_DATA = {
     },
   ],
   news: [
+    {
+      date: "2026-09-30",
+      category: "Host Visitor",
+      title: "Zhuohan Xie from MBZUAI visits.",
+      description: "Zhuohan gives a talk: Towards Trustworthy Financial AI: Verifiable Reasoning, Grounded Evidence, and Shared Evaluation",
+    },
+    {
+      date: "2026-09-24",
+      category: "Paper",
+      title: "Two papers accepted to NeurIPS 2026 from Kaiyang and Rania.",
+      description: "We investigatec the internal representations underlying LLM reliability, revealing temporal knowledge drift as a distinct representational axis and examining how fine-tuning objectives shape layer-wise information for hallucination detection."
+    },
     {
       date: "2026-09-15",
       category: "New Member",
@@ -353,20 +428,21 @@ window.LAB_DATA = {
   projects: {
     ongoing: [
       {
-        name: "Personal Digital Divisions",
+        name: "Trustworthy and Explanable AI",
         status: "In Progress",
-        summary: "How to preserve personas in long conversation across tasks; A demo 'AI You' tracking the emotional state and personality traits; Meeting proxy to attend meetings on behalf of users.",
-      },
-      {
-        name: "Fact-checking",
-        status: "In Progress",
-        summary: "Three parallel fact-checing projects for medical QA, identifying multimodal inconsistency and optimizing deposition and retrieval.",
+        summary: "This project focuses on trustworthy and explanable multimodal models and agents in medical domains, including uncertainty, calibration, interpretability and fairness.",
         // milestones: ["Shared project dashboards", "Long-horizon memory", "Actionable summaries"]
       },
       {
         name: "LLM and Agentic Safety",
         status: "In Progress",
-        summary: "Jailbreaking and defenses for open-source LLMs; how to behave safely conditioned on constraints and preferences",
+        summary: "How to behave safely in agentic systems conditioned on constraints and preferences; jailbreaking and defenses for open-source LLMs.",
+        // milestones: ["Search state controller", "Constraint verifier", "Speculative retrieval"]
+      },
+      {
+        name: "Continual Learning",
+        status: "In Progress",
+        summary: "General technical explorations to support continual learning for models and agents in both training-free and trainable ways.",
         // milestones: ["Search state controller", "Constraint verifier", "Speculative retrieval"]
       },
       {
@@ -376,13 +452,38 @@ window.LAB_DATA = {
         // milestones: ["Search state controller", "Constraint verifier", "Speculative retrieval"]
       },
       {
-        name: "General ML Questions",
+        name: "Personal Digital Twins",
         status: "In Progress",
-        summary: "Why classification is better than generation on tasks with clear label space? How much noise can a testbed tolerate for subjective tasks?",
-        // milestones: ["Search state controller", "Constraint verifier", "Speculative retrieval"]
-      }
+        summary: "We have developed two systems: AI You, a digital twin designed to capture an individual’s personality, skills, and professional expertise, enabling making friends and earn income; and SlideLab, a component of a meeting proxy that will attend meetings on users’ behalf. Next, we will continue developing the meeting proxy, explore digital twins in education, and design more transparent, reliable interactions between users and agents by walking users through the visually animated decision making process with interactive actions, instead of text only.",
+      },
+      // {
+      //   name: "Fact-checking",
+      //   status: "In Progress",
+      //   summary: "Three parallel fact-checing projects for medical QA, identifying multimodal inconsistency and optimizing deposition and retrieval.",
+      //   // milestones: ["Shared project dashboards", "Long-horizon memory", "Actionable summaries"]
+      // },
+      // {
+      //   name: "General ML Questions",
+      //   status: "In Progress",
+      //   summary: "Why classification is better than generation on tasks with clear label space? How much noise can a testbed tolerate for subjective tasks?",
+      //   // milestones: ["Search state controller", "Constraint verifier", "Speculative retrieval"]
+      // }
     ],
     seekcollaborators: [
+      {
+        name: "Emapthy Evaluation and Alignment",
+        status: "Seeking Collaborators",
+        summary: "Due to the subjectivity, evaluating whether long-term conversations are empathetic or not is challenging. We are seeking collaborators to explore empathy in AI and multi-objective optimization across reason, factuality, safety, and empathy by RL.",
+        // stack: ["PyTorch", "DeepSpeed", "Transformers"],
+        // link: "#"
+      },
+      {
+        name: "Persona-aware Disambiguation in Long-term Memory",
+        status: "Seeking Collaborators",
+        summary: "Investigate ambiguation scenarios in persona-aware long-term memory agents for benchmarking.",
+        // stack: ["Python", "W&B", "Docker"],
+        // link: "#"
+      },
       {
         name: "Safety Conditioning on Dynamic Constraints",
         status: "Seeking Collaborators",
@@ -390,20 +491,6 @@ window.LAB_DATA = {
         // stack: ["Python", "FastAPI", "Elasticsearch", "Vector DB"],
         // link: "#"
       },
-      {
-        name: "Emapthy Evaluation",
-        status: "Seeking Collaborators",
-        summary: "Due to the subjectivity, evaluating whether long-term conversations are empathetic or not is challenging. We are seeking collaborators to explore empathy in AI and multi-objective optimization across reason, factuality, safety, and empathy.",
-        // stack: ["PyTorch", "DeepSpeed", "Transformers"],
-        // link: "#"
-      },
-      {
-        name: "Machine-generated Video Detection",
-        status: "Seeking Collaborators",
-        summary: "Identifying machine-generated videos against misleading content, protecting users particularly children and elderly.",
-        // stack: ["Python", "W&B", "Docker"],
-        // link: "#"
-      }
     ],
   },
   // We can have a notebook style for recording our activities, with time stamp, images and captions, as our group memory with all photos (someone visits us, or we attend conferences).
