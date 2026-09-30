@@ -123,7 +123,7 @@ window.LAB_DATA = {
       },
       {
         name: "Rania Elbadry",
-        role: "Collaborating PhD · Newcastle University",
+        role: "Collaborating PhD · MBZUAI",
         interests: ["Continual Learning", "AI for Finance"],
         image: "assets/img/Rania.png",
         website: "https://scholar.google.com/citations?user=ic1jai8AAAAJ&hl=en"
