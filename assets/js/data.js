@@ -271,7 +271,7 @@ window.LAB_DATA = {
       year: 2026,
       title: "Retrieve Few, Verify Many: Segment-Level Evidence Reuse for Long-Form Factuality Assessment",
       venue: "EMNLP 2026 (Findings)",
-      authors: Junjie Liao, Yuxia Wang",
+      authors: "Junjie Liao, Yuxia Wang",
       tags: ["Efficient Fact-checking"],
       link: ""
     },
