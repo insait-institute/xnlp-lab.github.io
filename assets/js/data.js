@@ -556,7 +556,7 @@ window.LAB_DATA = {
       image: "assets/img/memory_2026_0824_thai_meal.jpg"
     },
     {
-      title: "TWIN-X - Oktoberfect",
+      title: "TWIN-X - Oktoberfest",
       description: "Asen, Jiayi and Yuxia in Munich Oktoberfect.",
       date: "2026-09-22",
       image: "assets/img/memory_2026_0922_munich.png"
