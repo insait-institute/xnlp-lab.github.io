@@ -157,6 +157,13 @@ window.LAB_DATA = {
         website: "https://scholar.google.com/citations?user=lFwikWEAAAAJ&hl=en"
       },
       {
+        name: "Kanwal Mehreen",
+        role: "Collaborating Msc · University of British Columbia",
+        interests: ["LLM Empathy"],
+        image: "assets/img/kanwal.png",
+        website: "https://kanwal-mehreen.netlify.app/"
+      },
+      {
         name: "Karun Sharma",
         role: "Collaborating Undergraduate · Bennett University",
         interests: ["Meeting Proxy"],
@@ -171,13 +178,6 @@ window.LAB_DATA = {
         image: "assets/img/vidushee.png",
         website: "https://koookieee.github.io/",
         // "https://scholar.google.com/citations?user=ivYo0q4AAAAJ&hl=en"     
-      },
-      {
-        name: "Kanwal Mehreen",
-        role: "Collaborating Msc · University of British Columbia",
-        interests: ["LLM Empathy"],
-        image: "assets/img/kanwal.png",
-        website: "https://kanwal-mehreen.netlify.app/"
       },
     ],
     collaborator: [
@@ -312,6 +312,12 @@ window.LAB_DATA = {
       category: "Paper",
       title: "Two papers accepted to NeurIPS 2026 from Kaiyang and Rania.",
       description: "We investigatec the internal representations underlying LLM reliability, revealing temporal knowledge drift as a distinct representational axis and examining how fine-tuning objectives shape layer-wise information for hallucination detection."
+    },
+    {
+      date: "2026-09-21",
+      category: "Visit",
+      title: "Yuxia, Asen and Jiayi go to Munich to attend EU-Horizon TWIN-X project offline Kickoff meeting.",
+      description: "We enjoyed both the meeting and Oktoberfest."
     },
     {
       date: "2026-09-15",
@@ -471,16 +477,16 @@ window.LAB_DATA = {
     ],
     seekcollaborators: [
       {
-        name: "Emapthy Evaluation and Alignment",
+        name: "Emapthy Definition, Evaluation and Alignment",
         status: "Seeking Collaborators",
-        summary: "Due to the subjectivity, evaluating whether long-term conversations are empathetic or not is challenging. We are seeking collaborators to explore empathy in AI and multi-objective optimization across reason, factuality, safety, and empathy by RL.",
+        summary: "Definition of empathy differs across scenarios and even individuals, making evaluations and alignment challenging. We are exploring empathy in multi-objective aligment along with reasoning, factuality and safety.",
         // stack: ["PyTorch", "DeepSpeed", "Transformers"],
         // link: "#"
       },
       {
         name: "Persona-aware Disambiguation in Long-term Memory",
         status: "Seeking Collaborators",
-        summary: "Investigate ambiguation scenarios in persona-aware long-term memory agents for benchmarking.",
+        summary: "Investigate ambiguity in persona-aware agents with long-term memory, from scoping scenarios and defining tasks to developing benchmarks and mitigation strategies.",
         // stack: ["Python", "W&B", "Docker"],
         // link: "#"
       },
@@ -548,6 +554,12 @@ window.LAB_DATA = {
       description: "An evening gathering to welcome Vilém Zouhar and say goodbye to Emiliana and Vasilije.",
       date: "2026-08-24",
       image: "assets/img/memory_2026_0824_thai_meal.jpg"
+    },
+    {
+      title: "TWIN-X - Oktoberfect",
+      description: "Asen, Jiayi and Yuxia in Munich Oktoberfect.",
+      date: "2026-09-22",
+      image: "assets/img/memory_2026_0922_munich.png"
     },
   ],
   connections: [
