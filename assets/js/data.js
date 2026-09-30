@@ -11,7 +11,7 @@ window.LAB_DATA = {
     homeIntro:
       "The INSAIT X-NLP Lab explores personal digital divisions, building reliable AI and NLP systems that are safe, factual, helpful and empathetic, and advancing language models beyond auto-regressive paradigms.",
     homeBullets: [
-      "Personal Digital Divisions: personalization and privacy protection, memory and continual learning",
+      "Personal Digital Twins: personalization and privacy protection, memory and continual learning",
       "Reliable AI and NLP: LLM and agentic safety, fact-checking, uncertainty estimation",
       "Diffusion Language Model: unify multimodal generation"
     ],
