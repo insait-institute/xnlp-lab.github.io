@@ -3,20 +3,20 @@ window.LAB_DATA = {
     shortName: "XLab",
     name: "X-NLP Lab",
     institution: "INSAIT, Sofia University",
-    tagline: "Personal Digital Divisions, Reliable AI and NLP, and Language Models Beyond Autoregressive Decoding.",
+    tagline: "Reliable AI and NLP, Personal Digital Twins, and Diffusion Language Models.",
     location: "Base in Sofia, collaborate globally",
     email: "yuxia.wang@insait.ai",
     address: "Synergy Tower, Sofia Tech Park, blvd. Tsarigradsko shose 111R, 1784 Sofia, Bulgaria",
     mapWidgetSrc: "https://mapmyvisitors.com/map.js?d=u2pJnIncaYnl6oBpFHtkCR_V2PfvI5bg_QfpLehhFy4&cl=ffffff&w=a",
     homeIntro:
-      "The INSAIT X-NLP Lab explores personal digital divisions, building reliable AI and NLP systems that are safe, factual, helpful and empathetic, and advancing language models beyond auto-regressive paradigms.",
+      "The INSAIT X-NLP Lab explores personal digital twins, building reliable AI and NLP systems that are safe, helpful and empathetic, and advancing language models beyond auto-regressive paradigms.",
     homeBullets: [
       "Personal Digital Twins: personalization and privacy protection, memory and continual learning",
       "Reliable AI and NLP: LLM and agentic safety, fact-checking, uncertainty estimation",
       "Diffusion Language Model: unify multimodal generation"
     ],
     stats: [
-      { value: "5", label: "Students" },
+      { value: "6", label: "Students" },
       { value: "10+", label: "International Collaborators" },
       { value: "4", label: "Research Topics" },
       { value: "3+", label: "Openings" },
@@ -557,9 +557,9 @@ window.LAB_DATA = {
     },
     {
       title: "TWIN-X - Oktoberfest",
-      description: "Asen, Jiayi and Yuxia in Munich Oktoberfect.",
+      description: "Asen, Jiayi and Yuxia in Munich Oktoberfest for TWIN-X.",
       date: "2026-09-22",
-      image: "assets/img/memory_2026_0922_munich.png"
+      image: "assets/img/memory_2026_0922_twinx_munich.PNG"
     },
   ],
   connections: [
