@@ -591,7 +591,7 @@ window.LAB_DATA = {
       }
     ],
     bullets: [
-      "Salary of €40,000 for PhD students, €60,000 for postdocs, and €80,000 for research scientists per year",
+      "Competitive salary for PhD students, postdocs, and research scientists",
       "Sufficient GPUs and API credits for research",
       "Generous funding for conference travel and collaborative visits",
       "Great office space and view for work"
