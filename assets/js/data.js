@@ -591,7 +591,7 @@ window.LAB_DATA = {
       }
     ],
     bullets: [
-      "Competitive salary for PhD students, postdocs, and research scientists",
+      "Competitive salaries for PhD students, postdocs, and research scientists",
       "Sufficient GPUs and API credits for research",
       "Generous funding for conference travel and collaborative visits",
       "Great office space and view for work"
